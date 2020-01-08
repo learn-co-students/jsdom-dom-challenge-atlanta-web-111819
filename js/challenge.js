@@ -76,5 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault()
         const input = e.target.querySelector('input')
         showComment(input.value)
+        input.value = ''
     })
 })
